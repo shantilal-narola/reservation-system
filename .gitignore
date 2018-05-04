@@ -12,6 +12,15 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+public/system
+config/database.yml
+config/application.yml
+
+
+
+.DS_Store
+
+public/assets
 
 /node_modules
 /yarn-error.log
