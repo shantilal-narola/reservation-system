@@ -15,6 +15,16 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+#
+##Devise
+#
+gem 'devise'
+
+#
+##rails admin
+#
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
