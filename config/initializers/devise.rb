@@ -3,13 +3,15 @@
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
+
+  config.omniauth :facebook, "793984867461834", "506b71ca09d553f4aab9290618d595c6", callback_url: "https://c96a73a0.ngrok.io/users/auth/facebook/callback"
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '8622f64326007378b7bb58e214f831c92b113cda7861aa0009149f4ce55e1b0ddf1081f85fb46850aa0fbe6df9f7fb5916d413ffc93d3d2a6355490e21cb517a'
-  
+
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
